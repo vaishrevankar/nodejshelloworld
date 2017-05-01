@@ -1,4 +1,4 @@
-# nodejshelloworld
+# Node.js Hello-World app
 NodeJS hello world app for running a server on localhost and testing it out using mocha and istanbul.
 
 ## Steps for testing:
