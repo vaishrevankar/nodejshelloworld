@@ -1,0 +1,23 @@
+{
+  "name": "nodejshelloworld",
+  "version": "1.0.0",
+  "description": "NodeJS hello world app with test coverage using istanbul",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha test/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishabhsverma93/nodejshelloworld.git"
+  },
+  "keywords": [
+    "nodejs",
+    "helloworld"
+  ],
+  "author": "Rishabh Singh Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishabhsverma93/nodejshelloworld/issues"
+  },
+  "homepage": "https://github.com/rishabhsverma93/nodejshelloworld#readme"
+}
