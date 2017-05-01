@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/rishabhsverma93/nodejshelloworld/issues"
   },
-  "homepage": "https://github.com/rishabhsverma93/nodejshelloworld#readme"
+  "homepage": "https://github.com/rishabhsverma93/nodejshelloworld#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.3.0"
+  }
 }
