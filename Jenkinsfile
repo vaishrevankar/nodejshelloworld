@@ -16,15 +16,17 @@ pipeline {
                 //sh 'npm run lint'
             //}
         //}
-        stage('Unit Tests') {
-            steps {
-                sh 'npm run test'
-            }
-        }
+        
         stage('Code Coverage'){
             steps {
             sh 'npm run test-cover'
             }
         }
+        stage('Unit Tests') {
+            steps {
+                sh 'npm run test'
+            }
+        }
+        
     }
 }
