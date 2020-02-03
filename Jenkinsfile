@@ -2,9 +2,9 @@ pipeline {
     agent any
       tools {nodejs "Node-Build"}
 
-    environment {
-        CI = 'true'
-    }
+    //environment {
+        //CI = 'true'
+    //}
     stages {
         stage('Build') {
             steps {
