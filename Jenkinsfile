@@ -1,6 +1,6 @@
 pipeline {
     agent any
-      tools {nodejs "Node-Build"}
+      tools {nodejs "NodeJS"}
 
     //environment {
         //CI = 'true'
