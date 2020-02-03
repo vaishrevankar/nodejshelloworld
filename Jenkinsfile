@@ -17,16 +17,16 @@ pipeline {
             //}
         //}
         
-        stage('Code Coverage'){
-            steps {
-            sh 'npm run test-with-coverage'
-            }
-        }
+        
         stage('Unit Tests') {
             steps {
                 sh 'npm run test'
             }
         }
-        
+        stage('Code Coverage'){
+            steps {
+            sh 'npm run test-with-coverage'
+            }
+        }
     }
 }
