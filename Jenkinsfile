@@ -19,7 +19,7 @@ pipeline {
         
         stage('Code Coverage'){
             steps {
-            sh 'npm run test-cover'
+            sh 'npm run test-with-coverage'
             }
         }
         stage('Unit Tests') {
