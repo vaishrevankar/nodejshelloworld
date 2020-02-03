@@ -4,11 +4,13 @@
   "description": "NodeJS hello world app with test coverage using istanbul",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover _mocha test/index.test.js"
+    "test": "istanbul cover _mocha test/index.test.js",
+    "test-with-coverage": "nyc --reporter=text mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rishabhsverma93/nodejshelloworld.git"
+    
   },
   "keywords": [
     "nodejs",
